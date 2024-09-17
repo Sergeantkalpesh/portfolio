@@ -55,6 +55,13 @@ sr.reveal('.featured-image',{delay: 300})
 
 /* -----PROJECT BOX ------ */
 sr.reveal('.project-box',{interval: 200})
+function showPopup(popupId) {
+    document.getElementById(popupId).style.display = 'flex';
+}
+
+function closePopup(popupId) {
+    document.getElementById(popupId).style.display = 'none';
+}
 /*-------HEADING---------- */
 sr.reveal('.top-header',{})
 
